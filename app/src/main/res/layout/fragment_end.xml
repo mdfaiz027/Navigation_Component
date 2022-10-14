@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="End Fragment"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/endBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:text="End Game"
+        android:textColor="@color/teal_700" />
+
+</FrameLayout>
+</layout>
